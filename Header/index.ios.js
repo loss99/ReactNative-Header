@@ -3,18 +3,20 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+//这个是自定义的组件,可以适配安卓和苹果
 import React, { Component, PropTypes } from 'react';
 import {
   AppRegistry,
   StyleSheet,
-    View,
-    Text,
-    Image,
-    TouchableHighlight,
-    Dimensions,
-    Platform
+	View,
+	Text,
+	Image,
+	TouchableHighlight,
+	Dimensions,
+	Platform
 } from 'react-native';
+
+const standard = 375;
 
 export default class Header extends Component {
     //属性声名
